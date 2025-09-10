@@ -45,18 +45,19 @@ gantt
     dateFormat  YYYY-MM-DD
 
     section 1º Mês
-    Plano de construção:a1, 2025-01-01, 20d
-    Limpeza e nivelamento:a2, after a1, 10d
+    Plano de construção        :a1, 2025-01-01, 20d
+    Limpeza     :a2, after a1, 10d
 
     section 2º Mês
-    Fundação:a3, 2025-02-01, 15d
-    Estruturação:a4, after a3, 30d
+    Fundação                   :a3, 2025-02-01, 15d
+    Estruturação               :a4, after a3, 30d
 
     section 3º Mês
-    Parte elétrica, esgoto e afins :a5, 2025-03-01, 10d
-    Acabamento Interno:a6, after a5, 25d
+    Elétrica     :a5, 2025-03-01, 10d
+    Acabamento Interno         :a6, after a5, 25d
 
     section 4º Mês
-    Pintura:a7, 2025-04-01, 15d
-    Inspeção: a8, after a7, 5d
+    Pintura                    :a7, 2025-04-01, 15d
+    Inspeção                   :a8, after a7, 5d
+
 ```
