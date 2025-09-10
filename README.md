@@ -39,3 +39,24 @@ A1["C8"]:::branco --> A2["C20"]:::amarelo --> A3["V50"]:::laranja --> A4["V100"]
 
 classDef branco fill:#fff, stroke:#000, stroke-width:1px;
 ```
+```mermaid
+gantt
+    title Construção de uma Casa
+    dateFormat  YYYY-MM-DD
+
+    section 1º Mês
+    Plano de construção:a1, 2025-01-01, 20d
+    Limpeza e nivelamento:a2, after a1, 10d
+
+    section 2º Mês
+    Fundação:a3, 2025-02-01, 15d
+    Estruturação:a4, after a3, 30d
+
+    section 3º Mês
+    Parte elétrica, esgoto e afins :a5, 2025-03-01, 10d
+    Acabamento Interno:a6, after a5, 25d
+
+    section 4º Mês
+    Pintura:a7, 2025-04-01, 15d
+    Inspeção: a8, after a7, 5d
+```
