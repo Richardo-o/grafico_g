@@ -61,3 +61,27 @@ gantt
     Inspeção                   :a8, after a7, 5d
 
 ```
+
+```mermaid
+gantt
+title Atividade 01 Grafico Crystal
+dateFormat YYYY-MM-DD
+section 1ºEntrega
+Área de login :login, 2025-01-01, 2025-01-21
+
+section 2ºEntrega
+Cadastros de empresa :crud, 2025-01-22, 2025-02-11
+
+section 3ºEntrega
+Upload de logotipo :logo, 2025-02-12, 2025-03-04
+
+section 4ºEntrega
+Relatórios de pdf :relatorios, 2025-03-05, 2025-03-25
+
+section 5ºEntrega
+Permissões :painel, 2025-03-26, 2025-04-15
+
+section Entrega Final - Validação e Implantação
+Testes, validação e implantação final :final, 2025-04-16, 2025-06-30
+
+```
