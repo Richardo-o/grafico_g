@@ -64,7 +64,7 @@ gantt
 
 ```mermaid
 gantt
-title Atividade 01 Grafico Crystal
+title Atividade 01 Gráfico de Gantt
 dateFormat YYYY-MM-DD
 section 1ºEntrega
 Área de login :login, 2025-01-01, 2025-01-21
@@ -87,6 +87,20 @@ Testes, validação e implantação final :final, 2025-04-16, 2025-06-30
 ```
 
 ```mermaid
+graph TD
+   subgraph Crystal-das-Atividades
+E1["Entrega 1<br/>Login (Semana 3)"]:::vermelho --> 
+E2["Entrega 2<br/>CRUD Empresas (Semana 6)"]:::laranja --> 
+E3["Entrega 3<br/>Upload Logotipo (Semana 8)"]:::amarelo --> 
+E4["Entrega 4<br/>Relatórios PDF/Excel (Semana 10)"]:::amarelo --> 
+E5["Entrega 5<br/>Painel Administrativo (Semana 12)"]:::laranja --> 
+E6["Entrega Final<br/>Sistema Completo (Mês 6)"]:::vermelho
+   end
+
+classDef branco fill:#FFFFFF,stroke:#000,stroke-width:1px,color:#000;
+classDef amarelo fill:#FFD84D,stroke:#000,stroke-width:1px,color:#000;
+classDef laranja fill:#FFA233,stroke:#000,stroke-width:1px,color:#000;
+classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px,color:#000;
 
 
 ```
